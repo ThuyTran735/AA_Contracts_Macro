@@ -400,7 +400,7 @@ Find_Maps()
                 }
             }
 
-            SendClick(1278, 737)
+            SendClick(787, 738)
         }
         if (ImageFound_unit()) {
             Unknown_Map()
