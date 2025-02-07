@@ -3702,28 +3702,28 @@ Find_Contracts() {
         Loop {
             SendClick(1400, 740)
 
-            Sleep(100)
+            Sleep(500)
             if SearchPixelColor(0xFFFF00, 445, 794, 1472, 841) {
                 Sleep(100)
                 SendClick(1274, 672)
 
-                Sleep(5750)
+                Sleep(5000)
                 SendClick(1092, 737)
 
-                Sleep(100)
+                Sleep(500)
                 if SearchPixelColor(0xFFFF00, 445, 794, 1472, 841) {
                     Sleep(100)
                     SendClick(1274, 672)
     
-                    Sleep(5750)
+                    Sleep(5000)
                     SendClick(787, 738)
 
-                    Sleep(100)
+                    Sleep(500)
                     if SearchPixelColor(0xFFFF00, 445, 794, 1472, 841) {
                         Sleep(100)
                         SendClick(1274, 672)
         
-                        Sleep(5750)
+                        Sleep(5000)
 
                         SendClick(458, 333)
                         SendClick(458, 333)
