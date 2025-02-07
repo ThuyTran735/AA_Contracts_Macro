@@ -3727,7 +3727,7 @@ Find_Contracts() {
 
                         SendClick(458, 333)
                         SendClick(458, 333)
-                        Loop 10 {
+                        Loop 20 {
                             Send("{WheelUp}")
                             Sleep(100)
                         }
