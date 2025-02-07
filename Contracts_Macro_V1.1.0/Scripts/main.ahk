@@ -369,7 +369,7 @@ Go_Spawn()
     Send("{Tab}")
     Sleep(200)
 
-    Loop 30 {
+    Loop 50 {
         Send("{i down}") ; Hold "i" key down
         Sleep(100)
         Send("{i up}") ; Hold "o" key up
@@ -378,7 +378,7 @@ Go_Spawn()
     ; Move the mouse down 700 pixels
     MouseMove(960, 600)
 
-    Loop 30 {
+    Loop 50 {
         Send("{o down}") ; Hold "o" key down
         Sleep(100)
         Send("{o up}") ; Hold "o" key up
