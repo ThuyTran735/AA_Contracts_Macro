@@ -3690,7 +3690,7 @@ Find_Contracts() {
         if (ImageFound_contracts_x()) {
             SendClick(458, 333)
             SendClick(458, 333)
-            Loop 10 {
+            Loop 20 {
                 Send("{WheelDown}")
                 Sleep(100)
             }
